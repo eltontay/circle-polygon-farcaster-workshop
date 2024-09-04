@@ -66,7 +66,7 @@ This project is a simple web application that demonstrates how to integrate Circ
     - `Button` is used to capture user actions such as creating a wallet or going back to the home page.
 
 - **API Integration**:
-    - The app uses Circle's DCW API to create wallets on the Polygon network.
+    - The app uses Circle's API to create wallets on the Polygon network.
     - The `uuid` library is used to generate idempotency keys for ensuring the API request is processed only once.
 
 ## Environment Variables
